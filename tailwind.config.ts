@@ -7,7 +7,14 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
+    extend: { 
+        letterSpacing: {
+         '3pct': '3%'
+       },
+       fontFamily:{
+         poppins: ['Poppins', 'san-serif'],
+         inter: ['Inter', 'san-serif'],
+       }, 
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
