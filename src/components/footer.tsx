@@ -1,9 +1,6 @@
-"use client";
-
-import React, { useState, useEffect } from "react";
-import { FaPinterest } from "react-icons/fa";
+import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+
 
 const Footer = () => {
   return (

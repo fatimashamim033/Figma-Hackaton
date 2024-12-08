@@ -1,6 +1,5 @@
 import React from "react";
 import { IoCheckmarkSharp } from "react-icons/io5";
-import { RiArrowDropDownLine } from "react-icons/ri";
 import { FiAlertCircle } from "react-icons/fi";
 
 const TopbarPage = () => {
