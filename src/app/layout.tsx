@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css"; 
-import {Inter} from "next/font/google";
+// import {Inter} from "next/font/google";
 import TopbarPage from "@/components/Topbar";
 import MiddlebarPage from "@/components/Middlebar";
 import NavbarPage from "@/components/Navbar";
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
 };
 
 
-const inter = Inter ({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-})
+// const inter = Inter ({
+//   subsets: ['latin'],
+//   weight: ['400', '500', '600', '700'],
+// })
 
 export default function RootLayout({
   children,
